@@ -50,11 +50,26 @@ section .box-card .card {
 section .box-card .card .img {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  background-image: url("../style/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: 600px;
   background-repeat: no-repeat;
   height: 70%;
   width: 100%;
+}
+
+section .box-card .card .img_1 {
+  background-image: url("./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+}
+
+section .box-card .card .img_2 {
+  background-image: url("./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+}
+
+section .box-card .card .img_3 {
+  background-image: url("./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+}
+
+section .box-card .card .img_4 {
+  background-image: url("./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
 }
 
 section .box-card .card .img-txt {
