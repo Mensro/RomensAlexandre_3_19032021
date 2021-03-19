@@ -67,10 +67,4 @@ nav .swing .btn:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-
-header div {
-  background-image: url("../ressources/ohmyfood.png");
-  width: 100%;
-  height: 100%;
-}
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=nav.css.map */
