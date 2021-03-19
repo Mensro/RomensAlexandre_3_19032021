@@ -1,6 +1,90 @@
 section {
   background-color: #d8d5d5;
-  height: 500px;
+  height: 100%;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .box-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+section .box-card .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 0;
+  height: 250px;
+  background-color: white;
+  border-radius: 30px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+section .box-card .card .img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-image: url("/style/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  height: 70%;
+  width: 100%;
+}
+
+section .box-card .card .img-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: unset;
+  -webkit-box-direction: unset;
+      -ms-flex-direction: unset;
+          flex-direction: unset;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px 0 0 10px;
+  height: 50px;
+  width: 100%;
+  font-size: 8px;
+}
+
+section .box-card .card .img-txt .title {
+  width: 80%;
+  text-align: left;
+}
+
+section .box-card .card .img-txt p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 /*# sourceMappingURL=section.css.map */

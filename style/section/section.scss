@@ -1,5 +1,63 @@
 section{
     background-color: rgb(216, 213, 213);
-    height: 500px;
+    height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+
+    .box-card{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 90%;
+    
+        .card{
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+            height: 250px;
+            background-color: white;
+            border-radius: 30px;
+            justify-content: end;
+            .img{
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+
+                    background-image: url("/style/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+                    background-size: 600px;
+                    background-repeat: no-repeat;
+                    height: 70%;
+                    width: 100%;
+            }
+            .img-txt{
+                display: flex;
+                flex-direction: unset;
+                align-items: center;
+
+                margin: 5px 0 0 10px;
+                height: 50px;
+                width: 100%;
+                font-size: 8px;
+                .title{
+                    width: 80%;
+                    text-align: left;
+                }
+
+                p{
+                    display: flex;
+                    justify-content: right;
+
+                }
+
+            }
+              
+        }
+}
 }
