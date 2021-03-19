@@ -1,6 +1,28 @@
-header div {
-  background-image: url(/style/);
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 80px;
   width: 100%;
-  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-shadow: 0px 3px 8px gray;
+          box-shadow: 0px 3px 8px gray;
+}
+
+header div {
+  background-image: url("/style/ressources/ohmyfood@2x.svg");
+  background-repeat: no-repeat;
+  background-size: 180px;
+  background-position: center;
+  height: 60px;
+  width: 300px;
 }
 /*# sourceMappingURL=header.css.map */
