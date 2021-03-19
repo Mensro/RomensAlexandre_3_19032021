@@ -50,7 +50,7 @@ section .box-card .card {
 section .box-card .card .img {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  background-image: url("/style/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-image: url("../style/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: 600px;
   background-repeat: no-repeat;
   height: 70%;

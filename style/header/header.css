@@ -18,7 +18,7 @@ header {
 }
 
 header div {
-  background-image: url("/style/images/logo/ohmyfood.png");
+  background-image: url("../style/images/logo/ohmyfood.png");
   background-repeat: no-repeat;
   background-size: 180px;
   background-position: center;
