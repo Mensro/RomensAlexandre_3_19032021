@@ -86,6 +86,12 @@ aside {
   height: 400px;
 }
 
+section {
+  background-color: #d8d5d5;
+  height: 500px;
+  width: 100%;
+}
+
 .container {
   max-width: 500px;
 }
