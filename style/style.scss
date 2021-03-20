@@ -2,39 +2,47 @@
 @import "./header/header.scss";
 @import "./aside/aside.scss";
 @import "./section/section.scss";
+
+
 .container{
     max-width: 500px;
+    min-width: 300px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
 }
-.btn{
-    cursor: pointer;
-  padding: 13px 20px;
-  background: linear-gradient(160deg, $main-color, $secondary-color);
-  border-radius: 50px;
-  text-decoration: unset;
-  color: rgb(255, 255, 255);
-  font-size: 15px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  transition: transform 800ms;
-  box-shadow: 2px 2px 5px gray;
-      transform: scale(1) translateY(0);
-  &:hover {
-      transform: scale(1.1) 
+html {
+    scroll-behavior: smooth; 
   }
-}
-.btn_sec{
-    text-align: center;
-    margin: 25px 0;
-    background: rgb(240, 240, 240);
-    color: black;
-    border-radius: 20px;
-    transition: background-color 1s ;
-    &:hover{
-        transform:scale(1) ;
-        background-color: pink ;
+    .btn{
+        cursor: pointer;
+      padding: 13px 20px;
+      background: linear-gradient(160deg, $main-color, $secondary-color);
+      border-radius: 50px;
+      text-decoration: unset;
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      transition: transform 800ms;
+      box-shadow: 2px 2px 5px gray;
+          transform: scale(1) translateY(0);
+      &:hover {
+          transform: scale(1.1) 
+      }
+    }
+    .btn_sec{
+        text-align: center;
+        margin: 25px 0;
+        background: rgb(240, 240, 240);
+        color: black;
+        border-radius: 20px;
+        transition: background-color 1s ;
+        &:hover{
+            transform:scale(1) ;
+            background-color: pink ;
+        }
+    
+    
     }
 
-
-}
+  

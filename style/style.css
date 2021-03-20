@@ -87,7 +87,7 @@ aside {
 }
 
 section {
-  background-color: #d8d5d5;
+  background-color: rgba(247, 244, 244, 0.932);
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -106,7 +106,25 @@ section {
           align-items: center;
 }
 
-section .box-card {
+section .title_section {
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-size: 600px;
+  background-repeat: no-repeat;
+  height: 70%;
+  width: 100%;
+}
+
+.box-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,7 +136,18 @@ section .box-card {
   width: 90%;
 }
 
-section .box-card .card {
+.box-card h1 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.box-card h2 {
+  font-size: 13px;
+  margin-bottom: 9px;
+  margin-top: 5px;
+}
+
+.box-card .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,32 +164,23 @@ section .box-card .card {
           justify-content: end;
 }
 
-section .box-card .card .img {
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  background-size: 600px;
-  background-repeat: no-repeat;
-  height: 70%;
-  width: 100%;
-}
-
-section .box-card .card .img_1 {
+.box-card .card .img_1 {
   background-image: url("./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
 }
 
-section .box-card .card .img_2 {
+.box-card .card .img_2 {
   background-image: url("./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
 }
 
-section .box-card .card .img_3 {
+.box-card .card .img_3 {
   background-image: url("./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
 }
 
-section .box-card .card .img_4 {
+.box-card .card .img_4 {
   background-image: url("./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
 }
 
-section .box-card .card .img-txt {
+.box-card .card .img-txt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,15 +194,14 @@ section .box-card .card .img-txt {
   margin: 5px 0 0 10px;
   height: 50px;
   width: 100%;
-  font-size: 8px;
 }
 
-section .box-card .card .img-txt .title {
+.box-card .card .img-txt .title {
   width: 80%;
   text-align: left;
 }
 
-section .box-card .card .img-txt p {
+.box-card .card .img-txt p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -193,7 +212,12 @@ section .box-card .card .img-txt p {
 
 .container {
   max-width: 500px;
+  min-width: 300px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .btn {
