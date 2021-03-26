@@ -2,6 +2,7 @@
 @import "./header/header.scss";
 @import "./aside/aside.scss";
 @import "./section/section.scss";
+@import "./footer/footer.scss";
 
 
 .container{
@@ -45,4 +46,37 @@ html {
     
     }
 
+
+
+    .check_b{
+        display: flex;
+        position: relative;
+        color: rgb(199, 197, 197);
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+
+        input{
+            width: 50px;
+            height: 50px;
+            opacity: 0;
+        }
+
+        .checkbox{
+        position: absolute;
+        }
+
+        span{
+            display: flex;
+            position: absolute;
+            pointer-events: none;
+        }
+
+        input[type="checkbox"]:checked + span{
+            
+            background: -webkit-linear-gradient(50deg, #ff99ff, #9b4caf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
   

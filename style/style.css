@@ -210,6 +210,12 @@ section .title_section {
           justify-content: right;
 }
 
+footer {
+  background-color: #464646;
+  width: 100%;
+  height: 200px;
+}
+
 .container {
   max-width: 500px;
   min-width: 300px;
@@ -259,5 +265,44 @@ html {
   -webkit-transform: scale(1);
           transform: scale(1);
   background-color: pink;
+}
+
+.check_b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  color: #c7c5c5;
+  font-size: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.check_b input {
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.check_b .checkbox {
+  position: absolute;
+}
+
+.check_b span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  pointer-events: none;
+}
+
+.check_b input[type="checkbox"]:checked + span {
+  background: -webkit-linear-gradient(50deg, #ff99ff, #9b4caf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*# sourceMappingURL=style.css.map */
