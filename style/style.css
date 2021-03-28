@@ -105,6 +105,21 @@ aside {
   background-size: 600px;
 }
 
+.img_menu2 {
+  background-image: url("/style/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  background-size: 600px;
+}
+
+.img_menu3 {
+  background-image: url("/style/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  background-size: 600px;
+}
+
+.img_menu4 {
+  background-image: url("/style/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-size: 600px;
+}
+
 section {
   background-color: #f7f4f4;
   height: 100%;
