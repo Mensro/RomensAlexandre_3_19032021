@@ -275,6 +275,14 @@ section .title_section {
           flex-direction: row;
 }
 
+.select-menu .btn_bottom {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0 50px 0;
+  height: 50px;
+}
+
 .select-menu .enter {
   margin-left: 15px;
   -webkit-box-orient: vertical;
