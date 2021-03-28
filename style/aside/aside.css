@@ -1,4 +1,9 @@
 aside {
   height: 400px;
 }
+
+.img_menu1 {
+  background-image: url("/style/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-size: 600px;
+}
 /*# sourceMappingURL=aside.css.map */

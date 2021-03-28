@@ -1,5 +1,5 @@
     section{
-        background-color: rgba(247, 244, 244, 0.932);
+        background-color: rgb(247, 244, 244);
         height: 100%;
         width: 100%;
         display: flex;
@@ -81,3 +81,55 @@
                 }
             }
         }
+    .select-menu{
+        margin-top: -100px;
+        border-top-left-radius: 45px;
+        border-top-right-radius: 45px;
+        div{
+            display: flex;
+            flex-direction: row;
+        }
+        .enter{
+            margin-left: 15px;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            width: 100%;
+            
+           
+            
+            .box-menu{
+                justify-content: space-between;
+                margin-bottom: 20px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 25px;
+                width: 96%;
+
+                .price-menu{
+                    justify-content: flex-end;
+                }
+                
+                div{
+                    margin-left: 10px;
+                    align-items: flex-start;
+                    flex-direction: column;
+
+                    h1{
+                        font-size: 28px;
+                        margin-bottom: 0;
+                    }
+                    h2{
+                        font-size: 22px;
+                        font-weight: 400;
+                    }
+                    p{
+                        font-size: 26px;
+                        font-weight: bold;
+                        margin: 0 15px 20px 0;
+                        
+                    }
+                }
+            }
+        }
+
+    }

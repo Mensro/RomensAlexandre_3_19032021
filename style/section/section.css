@@ -1,5 +1,5 @@
 section {
-  background-color: rgba(247, 244, 244, 0.932);
+  background-color: #f7f4f4;
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -120,5 +120,79 @@ section .title_section {
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
+}
+
+.select-menu {
+  margin-top: -100px;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+}
+
+.select-menu div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.select-menu .enter {
+  margin-left: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.select-menu .enter .box-menu {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 25px;
+  width: 96%;
+}
+
+.select-menu .enter .box-menu .price-menu {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.select-menu .enter .box-menu div {
+  margin-left: 10px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.select-menu .enter .box-menu div h1 {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+.select-menu .enter .box-menu div h2 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.select-menu .enter .box-menu div p {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0 15px 20px 0;
 }
 /*# sourceMappingURL=section.css.map */
