@@ -127,6 +127,22 @@ section .title_section {
   border-top-right-radius: 45px;
 }
 
+.select-menu .select-menu_title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.select-menu .select-menu_title h1 {
+  font-weight: 900;
+  font-size: 38px;
+  margin-left: -50px;
+}
+
 .select-menu div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -159,6 +175,8 @@ section .title_section {
   margin-bottom: 20px;
   background: white;
   border-radius: 25px;
+  -webkit-box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
+          box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
   width: 96%;
 }
 

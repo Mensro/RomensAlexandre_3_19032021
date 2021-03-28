@@ -84,6 +84,21 @@
         margin-top: -100px;
         border-top-left-radius: 45px;
         border-top-right-radius: 45px;
+
+        .select-menu_title{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+
+            h1{
+                font-weight: 900;
+                font-size: 38px;
+                margin-left: -50px;
+
+            }
+
+        }
+        
         div{
             display: flex;
             flex-direction: row;
@@ -102,6 +117,7 @@
                 margin-bottom: 20px;
                 background: white;
                 border-radius: 25px;
+                box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
                 width: 96%;
 
                 .price-menu{
