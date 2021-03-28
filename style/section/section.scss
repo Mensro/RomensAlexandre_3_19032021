@@ -93,7 +93,7 @@
             h1{
                 font-weight: 900;
                 font-size: 38px;
-                margin-left: -50px;
+                margin-right: 80px;
 
             }
 
@@ -105,8 +105,11 @@
         }
         .btn_bottom{
             justify-content: center;
-            margin: 200px 0 200px 0;
-            height: 50px;
+            margin: 65px 0 120px 0;
+            a{
+                font-size: 23px;
+                padding: 20px 60px ;
+            }
         }
         .enter{
             margin-left: 15px;

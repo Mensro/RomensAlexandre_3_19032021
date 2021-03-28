@@ -140,7 +140,7 @@ section .title_section {
 .select-menu .select-menu_title h1 {
   font-weight: 900;
   font-size: 38px;
-  margin-left: -50px;
+  margin-right: 80px;
 }
 
 .select-menu div {
@@ -157,8 +157,12 @@ section .title_section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 20px 0 50px 0;
-  height: 50px;
+  margin: 65px 0 120px 0;
+}
+
+.select-menu .btn_bottom a {
+  font-size: 23px;
+  padding: 20px 60px;
 }
 
 .select-menu .enter {
