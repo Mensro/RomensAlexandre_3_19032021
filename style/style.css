@@ -122,7 +122,6 @@ aside {
 
 section {
   background-color: #f7f4f4;
-  height: 100%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -280,7 +279,7 @@ section .title_section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 20px;
-  background-color: white;
+  background: white;
   border-radius: 25px;
   width: 96%;
 }
@@ -325,13 +324,22 @@ footer {
 }
 
 .container {
-  max-width: 500px;
-  min-width: 400px;
+  max-width: 560px;
+  width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .btn {
