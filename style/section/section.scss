@@ -1,158 +1,169 @@
-    section{
-        background-color: rgb(247, 244, 244);
-        width: 100%;
+section {
+  background-color: rgb(247, 244, 244);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  .title_section {
+    align-items: left;
+    justify-content: left;
+  }
+}
+.img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-size: 600px;
+  background-repeat: no-repeat;
+  height: 70%;
+  width: 100%;
+}
+
+.box-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 90%;
+  h1 {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 13px;
+    margin-bottom: 9px;
+    margin-top: 5px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    height: 250px;
+    background-color: white;
+    border-radius: 30px;
+    justify-content: end;
+
+    .img_1 {
+      background-image: url("./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    }
+    .img_2 {
+      background-image: url("./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    }
+    .img_3 {
+      background-image: url("./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    }
+    .img_4 {
+      background-image: url("./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    }
+    .img-txt {
+      display: flex;
+      flex-direction: unset;
+      align-items: center;
+      margin: 5px 0 0 10px;
+      height: 50px;
+      width: 100%;
+      .title {
+        width: 80%;
+        text-align: left;
+      }
+      p {
         display: flex;
+        justify-content: right;
+      }
+    }
+  }
+}
+.select-menu {
+  margin-top: -100px;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+
+  .select-menu_title {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    h1 {
+      font-weight: 900;
+      font-size: 38px;
+      margin-right: 80px;
+    }
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+  }
+  .btn_bottom {
+    justify-content: center;
+    margin: 65px 0 120px 0;
+    a {
+      font-size: 23px;
+      padding: 20px 60px;
+    }
+  }
+  .enter {
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+
+    .box-menu {
+      &:hover .price-menu {
+        transform: translateX(-121px);
+      }
+      &:hover .check {
+        transform: rotate(360deg);
+      }
+      overflow: hidden;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      background: white;
+      border-radius: 25px;
+      box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
+      width: 96%;
+
+      .price-menu {
+        transition: 300ms ease-in-out;
+        margin-right: -121px;
+        align-items: flex-end;
+        flex-direction: row;
+        .check-mark {
+          justify-content: center;
+          align-items: center;
+          font-size: 50px;
+          height: 100%;
+          width: 105px;
+          background: lawngreen;
+          .check {
+            transition: 300ms ease-in-out;
+            filter: invert(100%);
+          }
+        }
+      }
+      /*elypsys*/
+
+      div {
+        margin-left: 10px;
+        align-items: flex-start;
         flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        .title_section{
-            align-items: left;
-            justify-content: left;
-        }
 
+        h1 {
+          font-size: 28px;
+          margin-bottom: 0;
+        }
+        h2 {
+          font-size: 22px;
+          font-weight: 400;
+        }
+        p {
+          font-size: 26px;
+          font-weight: bold;
+          margin: 0 15px 20px 0;
+        }
+      }
     }
-    .img{
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-            background-size: 600px;
-            background-repeat: no-repeat;
-            height: 70%;
-            width: 100%;
-
-    }
-
-
-        .box-card{
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 20px;
-            width: 90%;
-            h1{
-                font-size: 25px;
-                margin-bottom: 0;
-            }
-            h2{
-                font-size: 13px;
-                margin-bottom: 9px;
-                margin-top: 5px;
-            }
-        
-            .card{
-                display: flex;
-                flex-direction: column;
-                margin: 10px 0;
-                height: 250px;
-                background-color: white;
-                border-radius: 30px;
-                justify-content: end;
-
-
-
-                .img_1{
-                    background-image: url("./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
-                }
-                .img_2{
-                    background-image: url("./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
-                }
-                .img_3{
-                    background-image: url("./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
-                }
-                .img_4{
-                    background-image: url("./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-                }
-                .img-txt{
-                    display: flex;
-                    flex-direction: unset;
-                    align-items: center;
-                    margin: 5px 0 0 10px;
-                    height: 50px;
-                    width: 100%;
-                    .title{
-                        width: 80%;
-                        text-align: left;
-
-                    }
-                    p{
-                        display: flex;
-                        justify-content: right;
-                    }
-                }
-            }
-        }
-    .select-menu{
-        margin-top: -100px;
-        border-top-left-radius: 45px;
-        border-top-right-radius: 45px;
-
-        .select-menu_title{
-            width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-
-            h1{
-                font-weight: 900;
-                font-size: 38px;
-                margin-right: 80px;
-
-            }
-
-        }
-        
-        div{
-            display: flex;
-            flex-direction: row;
-        }
-        .btn_bottom{
-            justify-content: center;
-            margin: 65px 0 120px 0;
-            a{
-                font-size: 23px;
-                padding: 20px 60px ;
-            }
-        }
-        .enter{
-            margin-left: 15px;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: center;
-            width: 100%;
-            
-           
-            
-            .box-menu{
-                justify-content: space-between;
-                margin-bottom: 20px;
-                background: white;
-                border-radius: 25px;
-                box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
-                width: 96%;
-
-                .price-menu{
-                    justify-content: flex-end;
-                }
-                
-                div{
-                    margin-left: 10px;
-                    align-items: flex-start;
-                    flex-direction: column;
-
-                    h1{
-                        font-size: 28px;
-                        margin-bottom: 0;
-                    }
-                    h2{
-                        font-size: 22px;
-                        font-weight: 400;
-                    }
-                    p{
-                        font-size: 26px;
-                        font-weight: bold;
-                        margin: 0 15px 20px 0;
-                        
-                    }
-                }
-            }
-        }
-
-    }
+  }
+}

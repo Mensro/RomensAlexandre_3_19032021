@@ -303,6 +303,7 @@ section .title_section {
 }
 
 .select-menu .enter .box-menu {
+  overflow: hidden;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -312,12 +313,50 @@ section .title_section {
   -webkit-box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
           box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
   width: 96%;
+  /*elypsys*/
+}
+
+.select-menu .enter .box-menu:hover .price-menu {
+  -webkit-transform: translateX(-121px);
+          transform: translateX(-121px);
+}
+
+.select-menu .enter .box-menu:hover .check {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .select-menu .enter .box-menu .price-menu {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+  margin-right: -121px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.select-menu .enter .box-menu .price-menu .check-mark {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 50px;
+  height: 100%;
+  width: 105px;
+  background: lawngreen;
+}
+
+.select-menu .enter .box-menu .price-menu .check-mark .check {
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
 }
 
 .select-menu .enter .box-menu div {
@@ -350,13 +389,31 @@ section .title_section {
 footer {
   background-color: #464646;
   width: 100%;
-  height: 200px;
+  height: 250px;
+}
+
+footer div {
+  color: white;
+  margin: 0 30px 0 30px;
+}
+
+footer .omf-white {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+  margin-top: 30px;
+  height: 100%;
+  width: 150px;
 }
 
 .container {
   max-width: 560px;
   width: 100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: white;
+  /*mode nuit*/
+  -webkit-box-shadow: 0px 0px 300px 60px rgba(192, 192, 192, 0.377);
+          box-shadow: 0px 0px 300px 60px rgba(192, 192, 192, 0.377);
+  /*mode nuit*/
 }
 
 html {
@@ -370,6 +427,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: #302f2f;
+  /*mode nuit*/
 }
 
 .btn {
@@ -380,7 +439,7 @@ body {
   text-decoration: unset;
   color: white;
   font-size: 15px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   -webkit-transition: -webkit-transform 800ms;
   transition: -webkit-transform 800ms;
