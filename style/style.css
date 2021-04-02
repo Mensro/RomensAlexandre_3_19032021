@@ -405,6 +405,168 @@ footer .omf-white {
   width: 150px;
 }
 
+@-webkit-keyframes opa {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opa {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.enter .anim {
+  opacity: 0;
+  -webkit-animation-name: opa;
+          animation-name: opa;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+
+.enter .anim-1 {
+  opacity: 0;
+  -webkit-animation-name: opa;
+          animation-name: opa;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+
+.enter .anim-2 {
+  opacity: 0;
+  -webkit-animation-name: opa;
+          animation-name: opa;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 1500ms;
+          animation-delay: 1500ms;
+}
+
+.enter .anim-3 {
+  opacity: 0;
+  -webkit-animation-name: opa;
+          animation-name: opa;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 2000ms;
+          animation-delay: 2000ms;
+}
+
+.enter .anim-4 {
+  opacity: 0;
+  -webkit-animation-name: opa;
+          animation-name: opa;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 2500ms;
+          animation-delay: 2500ms;
+}
+
+.enter .anim-5 {
+  opacity: 0;
+  -webkit-animation-name: opa;
+          animation-name: opa;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 3000ms;
+          animation-delay: 3000ms;
+}
+
+.enter .anim-6 {
+  opacity: 0;
+  -webkit-animation-name: opa;
+          animation-name: opa;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 3500ms;
+          animation-delay: 3500ms;
+}
+
+.enter .anim-7 {
+  opacity: 0;
+  -webkit-animation-name: opa;
+          animation-name: opa;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 4000ms;
+          animation-delay: 4000ms;
+}
+
+.enter .anim-8 {
+  opacity: 0;
+  -webkit-animation-name: opa;
+          animation-name: opa;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 4500ms;
+          animation-delay: 4500ms;
+}
+
+.enter .anim-9 {
+  opacity: 0;
+  -webkit-animation-name: opa;
+          animation-name: opa;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 5000ms;
+          animation-delay: 5000ms;
+}
+
+.enter .anim-10 {
+  opacity: 0;
+  -webkit-animation-name: opa;
+          animation-name: opa;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 5500ms;
+          animation-delay: 5500ms;
+}
+
+.enter .anim-11 {
+  opacity: 0;
+  -webkit-animation-name: opa;
+          animation-name: opa;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 6000ms;
+          animation-delay: 6000ms;
+}
+
 .container {
   max-width: 560px;
   width: 100%;

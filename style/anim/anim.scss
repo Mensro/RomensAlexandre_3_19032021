@@ -1,0 +1,66 @@
+@keyframes opa {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@mixin anim-base {
+  opacity: 0;
+  animation-name: opa;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.enter {
+  .anim {
+    @include anim-base;
+    animation-delay: 500ms;
+  }
+  .anim-1 {
+    @include anim-base;
+    animation-delay: 1000ms;
+  }
+  .anim-2 {
+    @include anim-base;
+    animation-delay: 1500ms;
+  }
+  .anim-3 {
+    @include anim-base;
+    animation-delay: 2000ms;
+  }
+  .anim-4 {
+    @include anim-base;
+    animation-delay: 2500ms;
+  }
+  .anim-5 {
+    @include anim-base;
+    animation-delay: 3000ms;
+  }
+  .anim-6 {
+    @include anim-base;
+    animation-delay: 3500ms;
+  }
+  .anim-7 {
+    @include anim-base;
+    animation-delay: 4000ms;
+  }
+  .anim-8 {
+    @include anim-base;
+    animation-delay: 4500ms;
+  }
+  .anim-9 {
+    @include anim-base;
+    animation-delay: 5000ms;
+  }
+  .anim-10 {
+    @include anim-base;
+    animation-delay: 5500ms;
+  }
+  .anim-11 {
+    @include anim-base;
+    animation-delay: 6000ms;
+  }
+}
