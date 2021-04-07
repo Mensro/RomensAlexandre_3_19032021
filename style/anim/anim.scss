@@ -18,6 +18,7 @@
   .anim {
     @include anim-base;
     animation-delay: 500ms;
+    color: gray;
   }
   .anim-1 {
     @include anim-base;
@@ -34,6 +35,7 @@
   .anim-4 {
     @include anim-base;
     animation-delay: 2500ms;
+    color: gray;
   }
   .anim-5 {
     @include anim-base;
@@ -50,6 +52,7 @@
   .anim-8 {
     @include anim-base;
     animation-delay: 4500ms;
+    color: gray;
   }
   .anim-9 {
     @include anim-base;

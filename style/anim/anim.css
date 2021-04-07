@@ -26,6 +26,7 @@
           animation-fill-mode: forwards;
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
+  color: gray;
 }
 
 .enter .anim-1 {
@@ -74,6 +75,7 @@
           animation-fill-mode: forwards;
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
+  color: gray;
 }
 
 .enter .anim-5 {
@@ -122,6 +124,7 @@
           animation-fill-mode: forwards;
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
+  color: gray;
 }
 
 .enter .anim-9 {

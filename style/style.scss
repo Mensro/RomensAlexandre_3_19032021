@@ -5,6 +5,20 @@
 @import "./footer/footer.scss";
 @import "./anim/anim.scss";
 
+@font-face {
+  font-family: "shrikhandregular";
+  src: url("./police/shrikhand-regular-webfont.woff2") format("woff2"),
+    url("./police/shrikhand-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("./police/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .container {
   max-width: 560px;
   width: 100%;
@@ -38,11 +52,16 @@ body {
   }
 }
 .btn_sec {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin: 25px 0;
-  background: rgb(240, 240, 240);
+  margin: 13px 0;
+  background: rgba(243, 243, 243, 0.973);
   color: black;
   border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(197, 197, 197);
   transition: background-color 1s;
   &:hover {
     transform: scale(1);

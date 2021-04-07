@@ -11,6 +11,7 @@ section {
     justify-content: left;
   }
 }
+
 .img {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
@@ -85,9 +86,9 @@ section {
     justify-content: space-evenly;
 
     h1 {
-      font-weight: 900;
-      font-size: 30px;
-      margin-right: 80px;
+      font-family: "shrikhandregular";
+      font-size: 31px;
+      margin-right: 20px;
     }
   }
 
@@ -152,12 +153,15 @@ section {
         flex-direction: column;
 
         h1 {
+          font-family: "roboto";
           font-size: 20px;
           margin-bottom: 0;
         }
         h2 {
+          font-family: "roboto";
           font-size: 18px;
           font-weight: 400;
+          color: gray;
         }
         p {
           font-size: 22px;

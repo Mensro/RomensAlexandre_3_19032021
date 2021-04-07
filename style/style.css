@@ -105,6 +105,22 @@ aside {
   height: 400px;
 }
 
+aside div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .img_menu1 {
   background-image: url("./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   background-size: 600px;
@@ -265,9 +281,9 @@ section .title_section {
 }
 
 .select-menu .select-menu_title h1 {
-  font-weight: 900;
-  font-size: 30px;
-  margin-right: 80px;
+  font-family: "shrikhandregular";
+  font-size: 31px;
+  margin-right: 20px;
 }
 
 .select-menu div {
@@ -376,13 +392,16 @@ section .title_section {
 }
 
 .select-menu .enter .box-menu div h1 {
+  font-family: "roboto";
   font-size: 20px;
   margin-bottom: 0;
 }
 
 .select-menu .enter .box-menu div h2 {
+  font-family: "roboto";
   font-size: 18px;
   font-weight: 400;
+  color: gray;
 }
 
 .select-menu .enter .box-menu div p {
@@ -438,6 +457,7 @@ footer .omf-white {
           animation-fill-mode: forwards;
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
+  color: gray;
 }
 
 .enter .anim-1 {
@@ -486,6 +506,7 @@ footer .omf-white {
           animation-fill-mode: forwards;
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
+  color: gray;
 }
 
 .enter .anim-5 {
@@ -534,6 +555,7 @@ footer .omf-white {
           animation-fill-mode: forwards;
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
+  color: gray;
 }
 
 .enter .anim-9 {
@@ -570,6 +592,20 @@ footer .omf-white {
           animation-fill-mode: forwards;
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
+}
+
+@font-face {
+  font-family: "shrikhandregular";
+  src: url("./police/shrikhand-regular-webfont.woff2") format("woff2"), url("./police/shrikhand-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("./police/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .container {
@@ -624,11 +660,23 @@ body {
 }
 
 .btn_sec {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-  margin: 25px 0;
-  background: #f0f0f0;
+  margin: 13px 0;
+  background: rgba(243, 243, 243, 0.973);
   color: black;
   border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 15px #c5c5c5;
+          box-shadow: 5px 5px 15px #c5c5c5;
   -webkit-transition: background-color 1s;
   transition: background-color 1s;
 }
