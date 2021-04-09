@@ -54,6 +54,7 @@ body {
 .btn_sec {
   width: 80%;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
   text-align: center;

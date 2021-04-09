@@ -105,6 +105,34 @@ aside {
   height: 400px;
 }
 
+aside p {
+  padding: 0 60px;
+}
+
+aside .aside-nbr {
+  position: fixed;
+  left: -7px;
+  width: 20px;
+  padding: 5px;
+  border-radius: 35px;
+  background: #b11fb1;
+  color: white;
+}
+
+aside .align_icon_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+aside .aside-icon {
+  color: purple;
+}
+
 aside div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -664,6 +692,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
