@@ -24,8 +24,8 @@
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
   color: gray;
 }
 
@@ -37,8 +37,8 @@
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 1000ms;
-          animation-delay: 1000ms;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
 }
 
 .enter .anim-2 {
@@ -49,8 +49,8 @@
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 1500ms;
-          animation-delay: 1500ms;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
 }
 
 .enter .anim-3 {
@@ -61,8 +61,8 @@
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 2000ms;
-          animation-delay: 2000ms;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
 }
 
 .enter .anim-4 {
@@ -73,8 +73,8 @@
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 2500ms;
-          animation-delay: 2500ms;
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
   color: gray;
 }
 
@@ -86,8 +86,8 @@
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 3000ms;
-          animation-delay: 3000ms;
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
 }
 
 .enter .anim-6 {
@@ -98,8 +98,8 @@
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 3500ms;
-          animation-delay: 3500ms;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
 }
 
 .enter .anim-7 {
@@ -110,8 +110,8 @@
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 4000ms;
-          animation-delay: 4000ms;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
 }
 
 .enter .anim-8 {
@@ -122,8 +122,8 @@
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 4500ms;
-          animation-delay: 4500ms;
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
   color: gray;
 }
 
@@ -135,8 +135,8 @@
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 5000ms;
-          animation-delay: 5000ms;
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
 }
 
 .enter .anim-10 {
@@ -147,8 +147,8 @@
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 5500ms;
-          animation-delay: 5500ms;
+  -webkit-animation-delay: 1300ms;
+          animation-delay: 1300ms;
 }
 
 .enter .anim-11 {
@@ -159,7 +159,7 @@
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 6000ms;
-          animation-delay: 6000ms;
+  -webkit-animation-delay: 1400ms;
+          animation-delay: 1400ms;
 }
 /*# sourceMappingURL=anim.css.map */

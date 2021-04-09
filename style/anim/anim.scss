@@ -17,53 +17,53 @@
 .enter {
   .anim {
     @include anim-base;
-    animation-delay: 500ms;
+    animation-delay: 300ms;
     color: gray;
   }
   .anim-1 {
     @include anim-base;
-    animation-delay: 1000ms;
+    animation-delay: 400ms;
   }
   .anim-2 {
     @include anim-base;
-    animation-delay: 1500ms;
+    animation-delay: 500ms;
   }
   .anim-3 {
     @include anim-base;
-    animation-delay: 2000ms;
+    animation-delay: 600ms;
   }
   .anim-4 {
     @include anim-base;
-    animation-delay: 2500ms;
+    animation-delay: 700ms;
     color: gray;
   }
   .anim-5 {
     @include anim-base;
-    animation-delay: 3000ms;
+    animation-delay: 800ms;
   }
   .anim-6 {
     @include anim-base;
-    animation-delay: 3500ms;
+    animation-delay: 900ms;
   }
   .anim-7 {
     @include anim-base;
-    animation-delay: 4000ms;
+    animation-delay: 1000ms;
   }
   .anim-8 {
     @include anim-base;
-    animation-delay: 4500ms;
+    animation-delay: 1100ms;
     color: gray;
   }
   .anim-9 {
     @include anim-base;
-    animation-delay: 5000ms;
+    animation-delay: 1200ms;
   }
   .anim-10 {
     @include anim-base;
-    animation-delay: 5500ms;
+    animation-delay: 1300ms;
   }
   .anim-11 {
     @include anim-base;
-    animation-delay: 6000ms;
+    animation-delay: 1400ms;
   }
 }

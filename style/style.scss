@@ -34,8 +34,9 @@ body {
   min-height: 100%;
   display: flex;
   justify-content: center;
-  background: rgb(48, 47, 47); /*mode nuit*/
+  margin: 0px;
 }
+
 .btn {
   cursor: pointer;
   padding: 13px 20px;
