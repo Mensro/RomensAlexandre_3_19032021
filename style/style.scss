@@ -30,6 +30,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  min-width: 375px;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   background: rgb(48, 47, 47); /*mode nuit*/
