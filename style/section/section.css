@@ -166,7 +166,6 @@ section .title_section {
 }
 
 .select-menu .enter {
-  margin-left: 15px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -190,7 +189,7 @@ section .title_section {
   border-radius: 25px;
   -webkit-box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
           box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
-  width: 96%;
+  width: 100%;
   /*elypsys*/
 }
 

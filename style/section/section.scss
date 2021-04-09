@@ -105,7 +105,6 @@ section {
     }
   }
   .enter {
-    margin-left: 15px;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
@@ -125,7 +124,7 @@ section {
       background: white;
       border-radius: 25px;
       box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
-      width: 96%;
+      width: 100%;
 
       .price-menu {
         transition: 300ms ease-in-out;
