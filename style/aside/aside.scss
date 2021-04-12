@@ -44,3 +44,24 @@ aside {
   background-image: url("./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
   background-size: 600px;
 }
+
+@media screen and (min-width: 1200px) {
+  aside {
+    width: 100%;
+    h1 {
+      text-align: center;
+    }
+
+    div {
+      flex-direction: inherit;
+      height: 455px;
+      justify-content: space-evenly;
+    }
+    .aside-nbr {
+      top: -147px;
+      left: 185px;
+      padding: 44px;
+      border-radius: 90px;
+    }
+  }
+}

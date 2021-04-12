@@ -12,11 +12,18 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
+nav div {
+  width: 100%;
+  height: 100%;
+}
+
 nav .where {
+  margin-top: 0px;
+  padding-top: 5px;
   height: 50px;
   width: 100%;
   background-color: rgba(233, 229, 229, 0.678);
@@ -42,15 +49,47 @@ nav .swing {
 }
 
 nav .swing p {
-  margin-top: unset;
+  margin-top: 0;
   margin-bottom: 30px;
   max-width: 330px;
   font-weight: 400;
+  padding-top: 10px;
 }
 
 nav .swing h1 {
   margin-top: unset;
   max-width: 250px;
   font-weight: 700;
+}
+
+@media screen and (min-width: 1200px) {
+  nav {
+    background-size: 100%;
+    width: 100%;
+    height: 453px;
+  }
+  nav div {
+    background-size: 100%;
+    background-image: url("/RomensAlexandre_3_19032021/style/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  }
+  nav .where {
+    background: unset;
+  }
+  nav .where p {
+    color: white;
+  }
+  nav .swing {
+    background: unset;
+    height: 380px;
+  }
+  nav .swing p {
+    color: white;
+    font-size: 24px;
+  }
+  nav .swing h1 {
+    max-width: unset;
+    color: white;
+    font-size: 38px;
+  }
 }
 /*# sourceMappingURL=nav.css.map */

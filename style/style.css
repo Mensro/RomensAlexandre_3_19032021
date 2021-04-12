@@ -12,11 +12,18 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
+nav div {
+  width: 100%;
+  height: 100%;
+}
+
 nav .where {
+  margin-top: 0px;
+  padding-top: 5px;
   height: 50px;
   width: 100%;
   background-color: rgba(233, 229, 229, 0.678);
@@ -42,16 +49,48 @@ nav .swing {
 }
 
 nav .swing p {
-  margin-top: unset;
+  margin-top: 0;
   margin-bottom: 30px;
   max-width: 330px;
   font-weight: 400;
+  padding-top: 10px;
 }
 
 nav .swing h1 {
   margin-top: unset;
   max-width: 250px;
   font-weight: 700;
+}
+
+@media screen and (min-width: 1200px) {
+  nav {
+    background-size: 100%;
+    width: 100%;
+    height: 453px;
+  }
+  nav div {
+    background-size: 100%;
+    background-image: url("/RomensAlexandre_3_19032021/style/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  }
+  nav .where {
+    background: unset;
+  }
+  nav .where p {
+    color: white;
+  }
+  nav .swing {
+    background: unset;
+    height: 380px;
+  }
+  nav .swing p {
+    color: white;
+    font-size: 24px;
+  }
+  nav .swing h1 {
+    max-width: unset;
+    color: white;
+    font-size: 38px;
+  }
 }
 
 header {
@@ -169,6 +208,31 @@ aside div {
   background-size: 600px;
 }
 
+@media screen and (min-width: 1200px) {
+  aside {
+    width: 100%;
+  }
+  aside h1 {
+    text-align: center;
+  }
+  aside div {
+    -webkit-box-orient: inherit;
+    -webkit-box-direction: inherit;
+        -ms-flex-direction: inherit;
+            flex-direction: inherit;
+    height: 455px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  aside .aside-nbr {
+    top: -147px;
+    left: 185px;
+    padding: 44px;
+    border-radius: 90px;
+  }
+}
+
 section {
   background-color: #f7f4f4;
   width: 100%;
@@ -281,6 +345,7 @@ section .title_section {
 .box-card .card .img-txt .title {
   width: 80%;
   text-align: left;
+  margin-left: 20px;
 }
 
 .box-card .card .img-txt p {
@@ -435,6 +500,21 @@ section .title_section {
   font-size: 22px;
   font-weight: bold;
   margin: 0 15px 20px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .box-card {
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .box-card .card {
+    width: 400px;
+  }
 }
 
 footer {
@@ -688,6 +768,8 @@ body {
 }
 
 .btn_sec {
+  max-height: 60px;
+  max-width: 440px;
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -757,5 +839,22 @@ body {
   background: -webkit-linear-gradient(50deg, #ff99ff, #9b4caf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: unset;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -65,4 +65,29 @@ aside div {
   background-image: url("./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
   background-size: 600px;
 }
+
+@media screen and (min-width: 1200px) {
+  aside {
+    width: 100%;
+  }
+  aside h1 {
+    text-align: center;
+  }
+  aside div {
+    -webkit-box-orient: inherit;
+    -webkit-box-direction: inherit;
+        -ms-flex-direction: inherit;
+            flex-direction: inherit;
+    height: 455px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  aside .aside-nbr {
+    top: -147px;
+    left: 185px;
+    padding: 44px;
+    border-radius: 90px;
+  }
+}
 /*# sourceMappingURL=aside.css.map */

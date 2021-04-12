@@ -110,6 +110,7 @@ section .title_section {
 .box-card .card .img-txt .title {
   width: 80%;
   text-align: left;
+  margin-left: 20px;
 }
 
 .box-card .card .img-txt p {
@@ -264,5 +265,20 @@ section .title_section {
   font-size: 22px;
   font-weight: bold;
   margin: 0 15px 20px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .box-card {
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .box-card .card {
+    width: 400px;
+  }
 }
 /*# sourceMappingURL=section.css.map */
