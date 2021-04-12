@@ -10,7 +10,7 @@ aside {
     width: 20px;
     padding: 5px;
     border-radius: 35px;
-    background: rgb(177, 31, 177);
+    background: linear-gradient(160deg, #ff99ff, #9b4caf);
     color: white;
   }
   .align_icon_title {
@@ -46,8 +46,24 @@ aside {
 }
 
 @media screen and (min-width: 1200px) {
+  .img_menu1 {
+    background-size: cover;
+    background-position-y: 75%;
+  }
+  .img_menu2 {
+    background-size: cover;
+    background-position-y: 85%;
+  }
+  .img_menu3 {
+    background-size: cover;
+    background-position-y: 17%;
+  }
+  .img_menu4 {
+    background-size: cover;
+  }
   aside {
     width: 100%;
+
     h1 {
       text-align: center;
     }
@@ -58,8 +74,14 @@ aside {
       justify-content: space-evenly;
     }
     .aside-nbr {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 44px;
+      width: 44px;
       top: -147px;
-      left: 185px;
+      font-size: 60px;
+      left: 36%;
       padding: 44px;
       border-radius: 90px;
     }

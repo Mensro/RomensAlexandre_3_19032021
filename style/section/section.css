@@ -268,6 +268,12 @@ section .title_section {
 }
 
 @media screen and (min-width: 1200px) {
+  .sec-side {
+    height: 400px;
+  }
+  .select-menu {
+    max-width: 1291px;
+  }
   .box-card {
     -webkit-box-orient: initial;
     -webkit-box-direction: initial;

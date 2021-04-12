@@ -68,17 +68,27 @@ nav .swing h1 {
     width: 100%;
     height: 453px;
   }
+  nav .backdrop {
+    height: 451px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 0;
+  }
   nav div {
     background-size: 100%;
     background-image: url("/RomensAlexandre_3_19032021/style/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
   }
   nav .where {
+    position: relative;
+    z-index: 1;
     background: unset;
   }
   nav .where p {
     color: white;
   }
   nav .swing {
+    position: relative;
+    z-index: 1;
     background: unset;
     height: 380px;
   }
