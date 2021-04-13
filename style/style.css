@@ -321,8 +321,8 @@ section .title_section {
           justify-content: left;
   display: block;
   text-align: left;
-  width: 100%;
-  margin-left: 13%;
+  width: 79%;
+  margin-left: -5%;
 }
 
 .img {
@@ -335,6 +335,7 @@ section .title_section {
 }
 
 .box-card {
+  max-width: 560px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -605,6 +606,7 @@ section .title_section {
     font-size: 50px;
   }
   .box-card {
+    max-width: unset;
     margin-top: 26px;
     -webkit-box-orient: initial;
     -webkit-box-direction: initial;
@@ -821,7 +823,6 @@ footer .omf-white {
 }
 
 .container {
-  max-width: 560px;
   width: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: white;

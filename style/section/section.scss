@@ -12,8 +12,8 @@ section {
     justify-content: left;
     display: block;
     text-align: left;
-    width: 100%;
-    margin-left: 13%;
+    width: 79%;
+    margin-left: -5%;
   }
 }
 
@@ -27,6 +27,7 @@ section {
 }
 
 .box-card {
+  max-width: 560px;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
@@ -211,6 +212,7 @@ section {
     }
   }
   .box-card {
+    max-width: unset;
     margin-top: 26px;
 
     flex-direction: initial;
