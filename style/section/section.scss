@@ -122,10 +122,11 @@ section {
       overflow: hidden;
       justify-content: space-between;
       margin-bottom: 20px;
+      margin-left: 1.4%;
       background: white;
       border-radius: 25px;
       box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
-      width: 100%;
+      width: 97%;
 
       .price-menu {
         transition: 300ms ease-in-out;
@@ -179,6 +180,16 @@ section {
   }
   .select-menu {
     max-width: 1291px;
+    .select-menu_title {
+      justify-content: space-between;
+      .check_b {
+        margin-right: 2%;
+      }
+      h1 {
+        margin-left: 2%;
+        font-size: 50px;
+      }
+    }
   }
   .box-card {
     flex-direction: initial;

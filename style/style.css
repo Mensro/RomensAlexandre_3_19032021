@@ -458,11 +458,12 @@ section .title_section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 20px;
+  margin-left: 1.4%;
   background: white;
   border-radius: 25px;
   -webkit-box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
           box-shadow: 3px 4px 8px rgba(114, 114, 114, 0.479);
-  width: 100%;
+  width: 97%;
   /*elypsys*/
 }
 
@@ -546,6 +547,18 @@ section .title_section {
   .select-menu {
     max-width: 1291px;
   }
+  .select-menu .select-menu_title {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .select-menu .select-menu_title .check_b {
+    margin-right: 2%;
+  }
+  .select-menu .select-menu_title h1 {
+    margin-left: 2%;
+    font-size: 50px;
+  }
   .box-card {
     -webkit-box-orient: initial;
     -webkit-box-direction: initial;
@@ -608,6 +621,7 @@ footer .omf-white {
   -webkit-animation-delay: 300ms;
           animation-delay: 300ms;
   color: gray;
+  margin-left: 2%;
 }
 
 .enter .anim-1 {
@@ -657,6 +671,7 @@ footer .omf-white {
   -webkit-animation-delay: 700ms;
           animation-delay: 700ms;
   color: gray;
+  margin-left: 2%;
 }
 
 .enter .anim-5 {
@@ -706,6 +721,7 @@ footer .omf-white {
   -webkit-animation-delay: 1100ms;
           animation-delay: 1100ms;
   color: gray;
+  margin-left: 2%;
 }
 
 .enter .anim-9 {
