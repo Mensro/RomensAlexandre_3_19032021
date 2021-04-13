@@ -21,9 +21,6 @@ section .title_section {
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
 }
 
 .img {
@@ -269,6 +266,24 @@ section .title_section {
 }
 
 @media screen and (min-width: 1200px) {
+  .title_section {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    border-bottom: solid;
+    border-bottom-color: gray;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 374px;
+    margin: 0 auto;
+  }
   .sec-side {
     height: 400px;
   }
@@ -288,6 +303,7 @@ section .title_section {
     font-size: 50px;
   }
   .box-card {
+    margin-top: 26px;
     -webkit-box-orient: initial;
     -webkit-box-direction: initial;
         -ms-flex-direction: initial;

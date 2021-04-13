@@ -237,15 +237,33 @@ aside div {
   aside {
     width: 100%;
   }
+  aside .align-fontionement {
+    margin-top: 185px;
+  }
   aside h1 {
+    margin-top: 14px;
     text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    border-bottom: solid;
+    border-bottom-color: gray;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 374px;
+    margin: 18px auto;
   }
   aside div {
     -webkit-box-orient: inherit;
     -webkit-box-direction: inherit;
         -ms-flex-direction: inherit;
             flex-direction: inherit;
-    height: 455px;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -293,9 +311,6 @@ section .title_section {
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
 }
 
 .img {
@@ -541,6 +556,24 @@ section .title_section {
 }
 
 @media screen and (min-width: 1200px) {
+  .title_section {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    border-bottom: solid;
+    border-bottom-color: gray;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 374px;
+    margin: 0 auto;
+  }
   .sec-side {
     height: 400px;
   }
@@ -560,6 +593,7 @@ section .title_section {
     font-size: 50px;
   }
   .box-card {
+    margin-top: 26px;
     -webkit-box-orient: initial;
     -webkit-box-direction: initial;
         -ms-flex-direction: initial;
