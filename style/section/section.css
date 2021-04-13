@@ -21,6 +21,14 @@ section .title_section {
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
+  align-items: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin-left: 13%;
 }
 
 .img {
@@ -266,7 +274,7 @@ section .title_section {
 }
 
 @media screen and (min-width: 1200px) {
-  .title_section {
+  section .title_section {
     text-align: center;
     font-size: 38px;
     font-weight: 500;

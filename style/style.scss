@@ -104,6 +104,7 @@ body {
   input[type="checkbox"]:checked + span {
     background: -webkit-linear-gradient(50deg, #ff99ff, #9b4caf);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 }

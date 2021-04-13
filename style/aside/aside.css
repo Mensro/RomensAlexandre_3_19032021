@@ -2,6 +2,10 @@ aside {
   height: 400px;
 }
 
+aside h1 {
+  margin-left: 7%;
+}
+
 aside p {
   padding: 0 40px;
 }

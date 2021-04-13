@@ -8,6 +8,12 @@ section {
   align-items: center;
   .title_section {
     align-items: left;
+    align-items: left;
+    justify-content: left;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-left: 13%;
   }
 }
 
@@ -174,17 +180,19 @@ section {
 }
 
 @media screen and (min-width: 1200px) {
-  .title_section {
-    text-align: center;
-    font-size: 38px;
-    font-weight: 500;
-    border-bottom: solid;
-    border-bottom-color: gray;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 374px;
-    margin: 0 auto;
+  section {
+    .title_section {
+      text-align: center;
+      font-size: 38px;
+      font-weight: 500;
+      border-bottom: solid;
+      border-bottom-color: gray;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      width: 374px;
+      margin: 0 auto;
+    }
   }
   .sec-side {
     height: 400px;
@@ -204,6 +212,7 @@ section {
   }
   .box-card {
     margin-top: 26px;
+
     flex-direction: initial;
     justify-content: space-evenly;
     .card {

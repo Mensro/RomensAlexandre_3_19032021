@@ -154,6 +154,10 @@ aside {
   height: 400px;
 }
 
+aside h1 {
+  margin-left: 7%;
+}
+
 aside p {
   padding: 0 40px;
 }
@@ -311,6 +315,14 @@ section .title_section {
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
+  align-items: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin-left: 13%;
 }
 
 .img {
@@ -556,7 +568,7 @@ section .title_section {
 }
 
 @media screen and (min-width: 1200px) {
-  .title_section {
+  section .title_section {
     text-align: center;
     font-size: 38px;
     font-weight: 500;
@@ -931,6 +943,7 @@ body {
 .check_b input[type="checkbox"]:checked + span {
   background: -webkit-linear-gradient(50deg, #ff99ff, #9b4caf);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
