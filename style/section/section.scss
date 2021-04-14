@@ -43,6 +43,7 @@ section {
   }
 
   .card {
+    position: relative;
     display: flex;
     flex-direction: column;
     margin: 10px 0;
@@ -50,6 +51,18 @@ section {
     background-color: white;
     border-radius: 30px;
     justify-content: end;
+    .new {
+      border-radius: 3px;
+      font-family: "roboto";
+      font-weight: 100;
+      right: 24px;
+      top: 24px;
+      display: flex;
+      position: absolute;
+      background: #a5f3a5;
+      color: green;
+      padding: 1% 2%;
+    }
 
     .img_1 {
       background-image: url("./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");

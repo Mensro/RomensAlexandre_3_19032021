@@ -364,6 +364,7 @@ section .title_section {
 }
 
 .box-card .card {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,6 +379,21 @@ section .title_section {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+}
+
+.box-card .card .new {
+  border-radius: 3px;
+  font-family: "roboto";
+  font-weight: 100;
+  right: 24px;
+  top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  background: #a5f3a5;
+  color: green;
+  padding: 1% 2%;
 }
 
 .box-card .card .img_1 {
