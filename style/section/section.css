@@ -234,7 +234,7 @@ section .title_section {
   font-size: 50px;
   height: 100%;
   width: 105px;
-  background: lawngreen;
+  background: #99e2d0;
 }
 
 .select-menu .enter .box-menu .price-menu .check-mark .check {

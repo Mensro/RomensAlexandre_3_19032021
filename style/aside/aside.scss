@@ -13,7 +13,7 @@ aside {
     width: 20px;
     padding: 5px;
     border-radius: 35px;
-    background: linear-gradient(160deg, #ff99ff, #9b4caf);
+    background: #9356dc;
     color: white;
   }
   .align_icon_title {
@@ -22,8 +22,12 @@ aside {
   }
 
   .aside-icon {
-    color: purple;
+    color: rgb(43, 42, 42);
+    &:hover {
+      color: #9356dc;
+    }
   }
+
   div {
     display: flex;
     justify-content: center;
@@ -89,6 +93,7 @@ aside {
       justify-content: space-evenly;
     }
     .aside-nbr {
+      background: #9256dcbb;
       display: flex;
       justify-content: center;
       align-items: center;

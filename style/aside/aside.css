@@ -16,7 +16,7 @@ aside .aside-nbr {
   width: 20px;
   padding: 5px;
   border-radius: 35px;
-  background: linear-gradient(160deg, #ff99ff, #9b4caf);
+  background: #9356dc;
   color: white;
 }
 
@@ -31,7 +31,11 @@ aside .align_icon_title {
 }
 
 aside .aside-icon {
-  color: purple;
+  color: #2b2a2a;
+}
+
+aside .aside-icon:hover {
+  color: #9356dc;
 }
 
 aside div {
@@ -121,6 +125,7 @@ aside div {
             justify-content: space-evenly;
   }
   aside .aside-nbr {
+    background: #9256dcbb;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

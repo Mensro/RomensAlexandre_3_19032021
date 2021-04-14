@@ -4,6 +4,15 @@ footer {
   height: 250px;
 }
 
+footer p {
+  cursor: pointer;
+}
+
+footer a {
+  color: white;
+  text-decoration: unset;
+}
+
 footer div {
   color: white;
   margin: 0 30px 0 30px;
@@ -12,8 +21,44 @@ footer div {
 footer .omf-white {
   -webkit-filter: invert(100%);
           filter: invert(100%);
+  margin-left: 30px;
   margin-top: 30px;
-  height: 100%;
   width: 150px;
+}
+
+@media screen and (min-width: 1200px) {
+  footer {
+    height: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  footer a {
+    margin: 16px 0;
+  }
+  footer div {
+    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 88%;
+  }
+  footer .omf-white {
+    margin-top: 0px;
+    width: 200px;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

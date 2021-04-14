@@ -168,7 +168,7 @@ aside .aside-nbr {
   width: 20px;
   padding: 5px;
   border-radius: 35px;
-  background: linear-gradient(160deg, #ff99ff, #9b4caf);
+  background: #9356dc;
   color: white;
 }
 
@@ -183,7 +183,11 @@ aside .align_icon_title {
 }
 
 aside .aside-icon {
-  color: purple;
+  color: #2b2a2a;
+}
+
+aside .aside-icon:hover {
+  color: #9356dc;
 }
 
 aside div {
@@ -273,6 +277,7 @@ aside div {
             justify-content: space-evenly;
   }
   aside .aside-nbr {
+    background: #9256dcbb;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -528,7 +533,7 @@ section .title_section {
   font-size: 50px;
   height: 100%;
   width: 105px;
-  background: lawngreen;
+  background: #99e2d0;
 }
 
 .select-menu .enter .box-menu .price-menu .check-mark .check {
@@ -627,6 +632,15 @@ footer {
   height: 250px;
 }
 
+footer p {
+  cursor: pointer;
+}
+
+footer a {
+  color: white;
+  text-decoration: unset;
+}
+
 footer div {
   color: white;
   margin: 0 30px 0 30px;
@@ -635,9 +649,45 @@ footer div {
 footer .omf-white {
   -webkit-filter: invert(100%);
           filter: invert(100%);
+  margin-left: 30px;
   margin-top: 30px;
-  height: 100%;
   width: 150px;
+}
+
+@media screen and (min-width: 1200px) {
+  footer {
+    height: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  footer a {
+    margin: 16px 0;
+  }
+  footer div {
+    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 88%;
+  }
+  footer .omf-white {
+    margin-top: 0px;
+    width: 200px;
+  }
 }
 
 @-webkit-keyframes opa {
@@ -904,7 +954,7 @@ body {
 .btn_sec:hover {
   -webkit-transform: scale(1);
           transform: scale(1);
-  background-color: pink;
+  background-color: #9256dc41;
 }
 
 .check_b {
