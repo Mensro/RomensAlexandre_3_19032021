@@ -28,7 +28,7 @@ footer .omf-white {
 
 @media screen and (min-width: 1200px) {
   footer {
-    height: 160px;
+    height: 161px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
