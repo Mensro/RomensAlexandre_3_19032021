@@ -611,6 +611,7 @@ section .title_section {
     font-size: 50px;
   }
   .box-card {
+    width: 99%;
     max-width: unset;
     margin-top: 26px;
     -webkit-box-orient: initial;
@@ -623,6 +624,7 @@ section .title_section {
   }
   .box-card .card {
     width: 400px;
+    margin: 0 0.5%;
   }
 }
 
@@ -656,7 +658,7 @@ footer .omf-white {
 
 @media screen and (min-width: 1200px) {
   footer {
-    height: 160px;
+    height: 161px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1012,6 +1014,9 @@ body {
             align-items: center;
     max-width: unset;
     width: 100%;
+  }
+  .btn_sec {
+    margin: 0 0.5%;
   }
 }
 /*# sourceMappingURL=style.css.map */

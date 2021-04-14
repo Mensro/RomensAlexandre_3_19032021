@@ -312,6 +312,7 @@ section .title_section {
     font-size: 50px;
   }
   .box-card {
+    width: 99%;
     max-width: unset;
     margin-top: 26px;
     -webkit-box-orient: initial;
@@ -324,6 +325,7 @@ section .title_section {
   }
   .box-card .card {
     width: 400px;
+    margin: 0 0.5%;
   }
 }
 /*# sourceMappingURL=section.css.map */

@@ -211,6 +211,7 @@ section {
     }
   }
   .box-card {
+    width: 99%;
     max-width: unset;
     margin-top: 26px;
 
@@ -218,6 +219,7 @@ section {
     justify-content: space-evenly;
     .card {
       width: 400px;
+      margin: 0 0.5%;
     }
   }
 }
