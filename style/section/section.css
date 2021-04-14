@@ -99,18 +99,27 @@ section .title_section {
 
 .box-card .card .img_1 {
   background-image: url("./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-position-y: -151px;
+  background-size: 565px;
 }
 
 .box-card .card .img_2 {
-  background-image: url("./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  background-image: url("./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  background-position-y: -255px;
+  background-size: 565px;
 }
 
 .box-card .card .img_3 {
-  background-image: url("./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  background-image: url("./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-position-y: -164px;
+  background-position-x: -10px;
+  background-size: 565px;
 }
 
 .box-card .card .img_4 {
-  background-image: url("./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  background-image: url("./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+  background-size: 565px;
+  background-position-y: -141px;
 }
 
 .box-card .card .img-txt {
@@ -217,6 +226,22 @@ section .title_section {
   /*elypsys*/
 }
 
+.select-menu .enter .box-menu:hover h2 {
+  width: 60%;
+  white-space: nowrap;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.select-menu .enter .box-menu:hover h1 {
+  width: 80%;
+  white-space: nowrap;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .select-menu .enter .box-menu:hover .price-menu {
   -webkit-transform: translateX(-121px);
           transform: translateX(-121px);
@@ -272,12 +297,16 @@ section .title_section {
 }
 
 .select-menu .enter .box-menu div h1 {
+  text-align: left;
+  width: 100%;
   font-family: "roboto";
   font-size: 20px;
   margin-bottom: 0;
 }
 
 .select-menu .enter .box-menu div h2 {
+  text-align: left;
+  width: 100%;
   font-family: "roboto";
   font-size: 18px;
   font-weight: 400;
@@ -342,6 +371,15 @@ section .title_section {
   .box-card .card {
     width: 400px;
     margin: 0 0.5%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .select-menu .enter .box-menu:hover h1 {
+    width: 100%;
+  }
+  .select-menu .enter .box-menu:hover h2 {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=section.css.map */
