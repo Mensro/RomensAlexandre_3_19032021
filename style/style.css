@@ -513,6 +513,7 @@ section .title_section {
 }
 
 .select-menu .enter .box-menu {
+  cursor: pointer;
   overflow: hidden;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
