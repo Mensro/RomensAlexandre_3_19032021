@@ -20,6 +20,10 @@
     animation-delay: 300ms;
     color: gray;
     margin-left: 2%;
+    border-bottom: solid;
+    padding-bottom: 6px;
+    border-bottom-color: #99e2d0;
+    width: 58px;
   }
   .anim-1 {
     @include anim-base;
@@ -38,6 +42,10 @@
     animation-delay: 700ms;
     color: gray;
     margin-left: 2%;
+    border-bottom: solid;
+    padding-bottom: 6px;
+    border-bottom-color: #99e2d0;
+    width: 58px;
   }
   .anim-5 {
     @include anim-base;
@@ -56,6 +64,10 @@
     animation-delay: 1100ms;
     color: gray;
     margin-left: 2%;
+    border-bottom: solid;
+    padding-bottom: 6px;
+    border-bottom-color: #99e2d0;
+    width: 58px;
   }
   .anim-9 {
     @include anim-base;

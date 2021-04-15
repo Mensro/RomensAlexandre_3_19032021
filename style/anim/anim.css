@@ -28,6 +28,10 @@
           animation-delay: 300ms;
   color: gray;
   margin-left: 2%;
+  border-bottom: solid;
+  padding-bottom: 6px;
+  border-bottom-color: #99e2d0;
+  width: 58px;
 }
 
 .enter .anim-1 {
@@ -78,6 +82,10 @@
           animation-delay: 700ms;
   color: gray;
   margin-left: 2%;
+  border-bottom: solid;
+  padding-bottom: 6px;
+  border-bottom-color: #99e2d0;
+  width: 58px;
 }
 
 .enter .anim-5 {
@@ -128,6 +136,10 @@
           animation-delay: 1100ms;
   color: gray;
   margin-left: 2%;
+  border-bottom: solid;
+  padding-bottom: 6px;
+  border-bottom-color: #99e2d0;
+  width: 58px;
 }
 
 .enter .anim-9 {
