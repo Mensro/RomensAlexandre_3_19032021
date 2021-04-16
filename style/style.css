@@ -958,6 +958,7 @@ html {
 }
 
 body {
+  min-width: 235;
   min-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
