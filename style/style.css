@@ -699,8 +699,9 @@ footer a {
 }
 
 footer div {
+  height: 30px;
   color: white;
-  margin: 0 30px 0 30px;
+  margin: 0 20px;
 }
 
 footer .omf-white {
@@ -708,11 +709,11 @@ footer .omf-white {
           filter: invert(100%);
   margin-left: 30px;
   margin-top: 30px;
+  margin-bottom: 20px;
   width: 150px;
 }
 
 footer .food {
-  margin: 0 auto;
   margin-bottom: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -723,9 +724,9 @@ footer .food {
 }
 
 footer .resize {
-  margin-bottom: 14px;
-  margin-top: 7px;
+  margin-bottom: 5px;
   margin-left: 21px;
+  margin-top: 1px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -747,8 +748,8 @@ footer .resize {
     margin: 0 auto;
   }
   footer .resize {
+    margin-top: 3px;
     margin-bottom: unset;
-    margin-top: 20px;
     margin-left: unset;
   }
   footer .food {
@@ -756,7 +757,7 @@ footer .resize {
     margin: 0px;
   }
   footer a {
-    margin-top: 21px;
+    margin-top: 3px;
   }
   footer div {
     display: -webkit-box;
