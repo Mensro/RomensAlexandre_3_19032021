@@ -18,10 +18,6 @@ section {
 }
 
 section .title_section {
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  align-items: left;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
