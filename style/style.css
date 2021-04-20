@@ -351,7 +351,7 @@ section .title_section {
 }
 
 .box-card h1 {
-  font-size: 25px;
+  font-size: 21px;
   margin-bottom: 0;
 }
 
@@ -468,7 +468,7 @@ section .title_section {
 
 .select-menu .select-menu_title h1 {
   font-family: "shrikhandregular";
-  font-size: 31px;
+  font-size: 21px;
   margin-right: 20px;
 }
 
@@ -598,7 +598,7 @@ section .title_section {
   text-align: left;
   width: 100%;
   font-family: "roboto";
-  font-size: 20px;
+  font-size: 17px;
   margin-bottom: 0;
 }
 
@@ -606,7 +606,7 @@ section .title_section {
   text-align: left;
   width: 100%;
   font-family: "roboto";
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: gray;
 }
@@ -763,6 +763,76 @@ footer .omf-white {
   }
 }
 
+@-webkit-keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes rool {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rool {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.fadeOut {
+  -webkit-animation: fade 1s forwards;
+          animation: fade 1s forwards;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 9;
+}
+
+.fadeOut .loadcircle {
+  -webkit-animation: rool 1s linear infinite;
+          animation: rool 1s linear infinite;
+  width: 60px;
+  height: 60px;
+}
+
 .enter .anim {
   opacity: 0;
   -webkit-animation-name: opa;
@@ -771,12 +841,13 @@ footer .omf-white {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
+  -webkit-animation-delay: 3000ms;
+          animation-delay: 3000ms;
   color: gray;
   margin-left: 2%;
   border-bottom: solid;
   padding-bottom: 6px;
+  font-size: 21px;
   border-bottom-color: #99e2d0;
   width: 58px;
 }
@@ -789,8 +860,8 @@ footer .omf-white {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 400ms;
-          animation-delay: 400ms;
+  -webkit-animation-delay: 3100ms;
+          animation-delay: 3100ms;
 }
 
 .enter .anim-2 {
@@ -801,8 +872,8 @@ footer .omf-white {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  -webkit-animation-delay: 3200ms;
+          animation-delay: 3200ms;
 }
 
 .enter .anim-3 {
@@ -813,8 +884,8 @@ footer .omf-white {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 600ms;
-          animation-delay: 600ms;
+  -webkit-animation-delay: 3300ms;
+          animation-delay: 3300ms;
 }
 
 .enter .anim-4 {
@@ -825,12 +896,13 @@ footer .omf-white {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 700ms;
-          animation-delay: 700ms;
+  -webkit-animation-delay: 3400ms;
+          animation-delay: 3400ms;
   color: gray;
   margin-left: 2%;
   border-bottom: solid;
   padding-bottom: 6px;
+  font-size: 21px;
   border-bottom-color: #99e2d0;
   width: 58px;
 }
@@ -843,8 +915,8 @@ footer .omf-white {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 800ms;
-          animation-delay: 800ms;
+  -webkit-animation-delay: 3500ms;
+          animation-delay: 3500ms;
 }
 
 .enter .anim-6 {
@@ -855,8 +927,8 @@ footer .omf-white {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 900ms;
-          animation-delay: 900ms;
+  -webkit-animation-delay: 3600ms;
+          animation-delay: 3600ms;
 }
 
 .enter .anim-7 {
@@ -867,8 +939,8 @@ footer .omf-white {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 1000ms;
-          animation-delay: 1000ms;
+  -webkit-animation-delay: 3700ms;
+          animation-delay: 3700ms;
 }
 
 .enter .anim-8 {
@@ -879,12 +951,13 @@ footer .omf-white {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 1100ms;
-          animation-delay: 1100ms;
+  -webkit-animation-delay: 3800ms;
+          animation-delay: 3800ms;
   color: gray;
   margin-left: 2%;
   border-bottom: solid;
   padding-bottom: 6px;
+  font-size: 21px;
   border-bottom-color: #99e2d0;
   width: 58px;
 }
@@ -897,8 +970,8 @@ footer .omf-white {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 1200ms;
-          animation-delay: 1200ms;
+  -webkit-animation-delay: 3900ms;
+          animation-delay: 3900ms;
 }
 
 .enter .anim-10 {
@@ -909,8 +982,8 @@ footer .omf-white {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 1300ms;
-          animation-delay: 1300ms;
+  -webkit-animation-delay: 4000ms;
+          animation-delay: 4000ms;
 }
 
 .enter .anim-11 {
@@ -921,8 +994,8 @@ footer .omf-white {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 1400ms;
-          animation-delay: 1400ms;
+  -webkit-animation-delay: 4100ms;
+          animation-delay: 4100ms;
 }
 
 @font-face {

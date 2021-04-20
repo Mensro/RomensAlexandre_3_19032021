@@ -50,7 +50,7 @@ section .title_section {
 }
 
 .box-card h1 {
-  font-size: 25px;
+  font-size: 21px;
   margin-bottom: 0;
 }
 
@@ -167,7 +167,7 @@ section .title_section {
 
 .select-menu .select-menu_title h1 {
   font-family: "shrikhandregular";
-  font-size: 31px;
+  font-size: 21px;
   margin-right: 20px;
 }
 
@@ -297,7 +297,7 @@ section .title_section {
   text-align: left;
   width: 100%;
   font-family: "roboto";
-  font-size: 20px;
+  font-size: 17px;
   margin-bottom: 0;
 }
 
@@ -305,7 +305,7 @@ section .title_section {
   text-align: left;
   width: 100%;
   font-family: "roboto";
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: gray;
 }
