@@ -6,9 +6,11 @@ footer {
 
 footer p {
   cursor: pointer;
+  padding-left: 3px;
 }
 
 footer a {
+  margin-left: 21px;
   color: white;
   text-decoration: unset;
 }
@@ -24,6 +26,23 @@ footer .omf-white {
   margin-left: 30px;
   margin-top: 30px;
   width: 150px;
+}
+
+footer .food {
+  margin: 0 auto;
+  margin-bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .resize {
+  margin-bottom: 14px;
+  margin-top: 7px;
+  margin-left: 21px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -44,11 +63,19 @@ footer .omf-white {
             align-items: center;
     margin: 0 auto;
   }
+  footer .resize {
+    margin-bottom: unset;
+    margin-top: 20px;
+    margin-left: unset;
+  }
+  footer .food {
+    width: 200px;
+    margin: 0px;
+  }
   footer a {
-    margin: 16px 0;
+    margin-top: 21px;
   }
   footer div {
-    margin-top: 25px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -58,7 +85,6 @@ footer .omf-white {
   }
   footer .omf-white {
     margin-top: 0px;
-    width: 200px;
   }
 }
 /*# sourceMappingURL=footer.css.map */
