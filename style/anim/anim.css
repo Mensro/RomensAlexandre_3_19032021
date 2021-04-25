@@ -75,11 +75,12 @@
           align-items: center;
   width: 100%;
   height: 100%;
-  background: white;
+  background: #ff79d9;
   z-index: 9;
 }
 
 .fadeOut .loadcircle {
+  color: #9356dc;
   -webkit-animation: rool 1s linear infinite;
           animation: rool 1s linear infinite;
   width: 60px;
